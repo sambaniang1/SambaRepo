@@ -22,7 +22,51 @@ public class DataTypeDemo {
 		char chh;
 		chh = 'a';
 		
+		int res = addNumber(45, 46);
+		System.out.println(res);
+		
+		double finalResult = multiplyAndSubtract(8, 5.5, 3);
+		System.out.println(finalResult);
+		
+		//double result = multiplyAndSubtract_Part2(8, 5.5, 3);
+		System.out.println(multiplyAndSubtract_Part2(8, 5.5, 3));
+		
+		greeting("Samba");
+		greeting("Ram");
 		
 	}
+	
+	public static int addNumber(int a, int b){
+		int c =a + b;
+		return c;
+	}
+	
+	
+	public static double multiplyAndSubtract(double a, double b, double c){
+		double d = a * b - c;
+		return d;
+	}
+	
+	
+	public static double multiplyAndSubtract_Part2(double a, double b, double c){
+		return a * b - c;
+	}
+	
+	public static void greeting(String s){
+		String greet = "Hi "+s;
+		System.out.println(greet);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 }
