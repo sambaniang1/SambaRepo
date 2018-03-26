@@ -1,9 +1,9 @@
 package fundamentals;
 
 public class Flat {
-	String owner;
+	public String owner;
 	int members;
-	double rent;
+	private double rent;
 	
 	//instance variable
 	

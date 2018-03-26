@@ -34,6 +34,12 @@ public class DataTypeDemo {
 		greeting("Samba");
 		greeting("Ram");
 		
+		Flat f1 = new Flat("Samba", 2, 3400);
+		
+		System.out.println(f1.owner);
+		System.out.println(f1.members);
+		//System.out.println(f1.rent);
+		
 	}
 	
 	public static int addNumber(int a, int b){
