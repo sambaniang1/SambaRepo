@@ -1,7 +1,7 @@
 package modifiers;
 
 public class StaticInstanceCheck {
-
+	static String address = "Newyork";
 	static int statVar;
 	int instVar;
 	
@@ -35,6 +35,10 @@ public class StaticInstanceCheck {
 		System.out.println(sic3.statVar);
 		System.out.println(StaticInstanceCheck.statVar);
 		System.out.println(sic1.statVar);
+		
+		
+		StaticInstanceCheck.address.length();
+		System.out.println();
 		
 	}
 
